@@ -38,3 +38,24 @@ articles.count()
 
 articles.columns
 len(articles.columns)
+
+# COMMAND ----------
+
+black_articles = articles.filter(
+    articles["colour_group_name"] == "Black"
+)
+
+display(
+    black_articles.select(
+        "article_id",
+        "prod_name",
+        "colour_group_name"
+    ).limit(5)
+)
+
+# COMMAND ----------
+
+black_articles.count()
+
+# COMMAND ----------
+
