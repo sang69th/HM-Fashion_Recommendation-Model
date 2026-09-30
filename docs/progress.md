@@ -13,3 +13,19 @@ One observation: product names alone can be misleading. An article named “OP T
 Next: practise filtering the catalogue, then load the purchase history.
 
 No recommendation model has been built yet.
+
+## Filtering by colour
+
+Filtered the catalogue where `colour_group_name` equals `Black`.
+
+Previewed five matching articles and counted 22,670 matching records, about 21.5% of the catalogue.
+
+Practised:
+- `=` to assign a name.
+- `==` to compare values.
+- `.filter()` to keep matching rows.
+- `.select()` to choose columns.
+- `.limit()` to preview a few rows.
+- `.count()` to count records.
+
+This count describes catalogue articles, not sales or customer preferences.
