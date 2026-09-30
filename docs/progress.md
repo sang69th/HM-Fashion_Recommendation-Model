@@ -29,3 +29,5 @@ Practised:
 - `.count()` to count records.
 
 This count describes catalogue articles, not sales or customer preferences.
+
+Combined colour and product-type filters using & (AND). Found 2,728 articles where colour_group_name is Black and product_type_name is Trousers
